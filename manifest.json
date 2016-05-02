@@ -1,0 +1,20 @@
+{
+  "name": "Adblack",
+	"manifest_version": 2,
+  "version": "0.1",
+  "description": "black out ads with css",
+	"content_scripts": [
+		{
+			"matches": ["*://*.dev/*",
+				"*://*.gawker.com/*",
+				"*://*.gizmodo.com/*",
+				"*://*.deadspin.com/*",
+				"*://*.jalopnik.com/*",
+				"*://*.jezebel.com/*",
+				"*://*.kotaku.com/*",
+				"*://*.lifehacker.com/*"
+			],
+			"css": ["adblack.css"]
+		}
+	]
+}

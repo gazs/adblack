@@ -1,0 +1,7 @@
+.ad-unit, .trc_related_container {
+	-webkit-filter: brightness(0);
+}
+
+.tbl-site-color, .thumbnails-a .video-title {
+	background: black;
+}
