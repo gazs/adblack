@@ -12,7 +12,8 @@
 				"*://*.jalopnik.com/*",
 				"*://*.jezebel.com/*",
 				"*://*.kotaku.com/*",
-				"*://*.lifehacker.com/*"
+				"*://*.lifehacker.com/*",
+				"*://*.kinja.com/*"
 			],
 			"css": ["adblack.css"]
 		}
